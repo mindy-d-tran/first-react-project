@@ -1,5 +1,8 @@
-.flex{
+#pages{
   display: flex;
+}
+div[id*="Page"]{
+  width: 50%;
 }
 .flexColumn{
   display: flex;
@@ -15,12 +18,13 @@ img{
   object-fit: cover;
   overflow: hidden;
 }
-
+#employeePage div>h2::before{
+  content: "< ";
+}
 #homePage div>h2::after{
   content: " Directory";
 }
 
 #employeeListItem {
-  width: 50%;
   display: flex;
 }
