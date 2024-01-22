@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 
 function HomePage() {
   return (
-    <div>
+    <div className="flexColumn" id="homePage">
       <Header></Header>
       <SearchBar></SearchBar>
       <EmployeeList></EmployeeList>
