@@ -1,3 +1,4 @@
+import EmployeeList from "./EmployeeList";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 
@@ -6,6 +7,7 @@ function HomePage() {
     <div>
       <Header></Header>
       <SearchBar></SearchBar>
+      <EmployeeList></EmployeeList>
     </div>
   );
 }
